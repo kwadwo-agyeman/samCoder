@@ -1,0 +1,49 @@
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.hero--section {
+  background: linear-gradient(
+      134deg,
+      rgba(139, 7, 7, 0.4),
+      rgb(205, 77, 77, 0.3)
+    ),
+    url("./assets/portfolioBg.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+  position: fixed;
+  width: 100vw;
+}
+
+@font-face {
+  font-family: "Stanley";
+  src: url("../../fonts/StanleyPersonalUse-BWnRd.ttf") format("truetype");
+}
+
+.my--name {
+  font-family: "Stanley", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  position: relative;
+  /* background-color: yellow; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(8, 8, 8);
+}
+
+.app--container {
+  background-color: white;
+  position: relative;
+}
+
+.app--content--container {
+  width: 70vw;
+  padding: 3rem;
+  margin: 0 auto;
+  position: relative;
+  /* margin-top: 80vh; */
+}

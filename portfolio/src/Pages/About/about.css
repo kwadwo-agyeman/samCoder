@@ -1,0 +1,19 @@
+span {
+  display: block;
+}
+
+@font-face {
+  font-family: "Stanley";
+  src: url("../../fonts/StanleyPersonalUse-BWnRd.ttf") format("truetype");
+}
+
+.custom-font {
+  font-family: "Stanley", sans-serif;
+  font-size: 75px;
+  font-weight: 800;
+}
+
+.about--content{
+    line-height: 50px;
+    font-size: larger;
+}

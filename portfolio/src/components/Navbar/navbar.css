@@ -1,0 +1,23 @@
+.nav--container{
+    /* background: #01baef; */
+    background: transparent;
+    position: fixed;
+    z-index: 444;
+    width: 100vw;
+    transition-property: background;
+    transition-duration: .3s;
+}
+.nav--container.scrolled{
+    background: rgba(243, 65, 34, 0.7);
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 45px;
+    padding: 1rem;
+    margin-right: 5rem;
+    color: white;
+    font-size: larger;
+}
