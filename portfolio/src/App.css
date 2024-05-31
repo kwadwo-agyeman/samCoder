@@ -7,6 +7,7 @@ ul {
   background: linear-gradient(
       134deg,
       rgba(139, 7, 7, 0.4),
+      rgb(0, 0, 0,0.8),
       rgb(205, 77, 77, 0.3)
     ),
     url("./assets/portfolioBg.jpg");
@@ -32,12 +33,39 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(8, 8, 8);
+  color: rgb(248, 24, 24);
+  word-spacing:"70px"
 }
+
+.colored {
+ /* font-family: "Anton", sans-serif; */
+ letter-spacing: 0.1cm;
+ font-weight: 600;
+ animation: animate-webkitstrokes 4s infinite alternate;
+}
+
+@keyframes animate-webkitstrokes {
+  0% {
+    fill: transparent;
+    stroke: rgb(251, 10, 10);
+    stroke-width: 2px;
+    stroke-dashoffset: 100%;
+    stroke-dasharray: 0 100%;
+  }
+  100% {
+    fill: rgba(234, 62, 24, 0.5);
+    stroke: transparent;
+    stroke-width: 0;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 100% 0;
+  }
+}
+
 
 .app--container {
   background-color: white;
   position: relative;
+  
 }
 
 .app--content--container {
@@ -46,4 +74,16 @@ ul {
   margin: 0 auto;
   position: relative;
   /* margin-top: 80vh; */
+}
+
+.techstack{
+  background-color: rgb(255, 255, 0,0.4);
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.v--line{
+  display: flex;
+  justify-content: end;
+  
 }

@@ -1,10 +1,13 @@
 import React from "react";
 import "./about.css";
+import Tooltip from "@mui/material/Tooltip";
+import { Box } from "@mui/material";
+
 const About = () => {
   return (
     <div>
       <header>
-        <h1 className="custom-font">About</h1>
+        <h3 className="custom-font">About</h3>
       </header>
 
       <section className="about--content">
@@ -24,10 +27,6 @@ const About = () => {
             to music and relaxing.
           </span>
         </div>
-
-        <Box>
-            
-        </Box>
       </section>
     </div>
   );
